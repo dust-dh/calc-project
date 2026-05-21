@@ -15,7 +15,7 @@ int multiply(int a, int b) {
 int main() {
     int x = 10, y = 5;
     printf("%d + %d = %d\n", x, y, add(x, y));
-    printf("%d - %d = %d\n", x, y, subtract(x, y));
+    printf("计算结果: %d - %d = %d\n", x, y, subtract(x, y));
     printf("%d * %d = %d\n", x, y, multiply(x, y));
     return 0;
 }
